@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0db6ff6d75624843a4cb5c479c21ae2, type: 3}
+  m_Name: Helmet
+  m_EditorClassIdentifier: 
+  name: Helmet
+  icon: {fileID: 21300000, guid: 34daf91faa9aabf4d893820448ae6ba3, type: 3}
+  isDefaultItem: 0
+  equipSlot: 0
+  mesh: {fileID: 137108148735765140, guid: 04fbd723d6c7ccf4baec7d5fad83b580, type: 2}
+  armorModifier: 2
+  damageModifier: 1

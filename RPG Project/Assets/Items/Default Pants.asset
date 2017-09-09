@@ -9,11 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0db6ff6d75624843a4cb5c479c21ae2, type: 3}
-  m_Name: Helmet of Protection
+  m_Name: Default Pants
   m_EditorClassIdentifier: 
-  name: Helmet of Protection
-  icon: {fileID: 21300000, guid: 2e2d4f29834b27a45bfb5f5a214c6850, type: 3}
-  isDefaultItem: 0
-  equipSlot: 0
-  armorModifier: 3
+  name: Pants
+  icon: {fileID: 0}
+  isDefaultItem: 1
+  equipSlot: 2
+  mesh: {fileID: 137266611606629704, guid: 46aec30db6b65a54f869edd107a8e2f2, type: 2}
+  coveredMeshRegions: 00000000
+  armorModifier: 0
   damageModifier: 0
