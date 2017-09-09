@@ -535,7 +535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &138000380
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2950,22 +2950,22 @@ Prefab:
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -57
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
@@ -2975,7 +2975,7 @@ Prefab:
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
@@ -2985,7 +2985,7 @@ Prefab:
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224523323762167076, guid: bc1ac425b9d0fb64aadcc6ad8074ece8,
         type: 2}
@@ -3765,7 +3765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 879218260}
-  item: {fileID: 11400000, guid: b870e4420d5957747b37fc7bc5651fee, type: 2}
+  item: {fileID: 11400000, guid: b56d526bba11fb340a86509c37a262cf, type: 2}
 --- !u!23 &879218257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4668,6 +4668,7 @@ GameObject:
   - component: {fileID: 1232611864}
   - component: {fileID: 1232611863}
   - component: {fileID: 1232611862}
+  - component: {fileID: 1232611866}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4751,6 +4752,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1232611866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1232611861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74352d62a668664488838f5daf58a2a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsParent: {fileID: 1258545215}
+  inventoryUI: {fileID: 138000379}
 --- !u!1 &1258545214
 GameObject:
   m_ObjectHideFlags: 0
