@@ -9,13 +9,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0db6ff6d75624843a4cb5c479c21ae2, type: 3}
-  m_Name: Default Shoes
+  m_Name: Platebody
   m_EditorClassIdentifier: 
-  name: Shoes
-  icon: {fileID: 0}
-  isDefaultItem: 1
-  equipSlot: 5
-  mesh: {fileID: 137599804041511860, guid: 6a4392e8fac7833448aa7ccb22ecb79f, type: 2}
-  coveredMeshRegions: 
-  armorModifier: 0
+  name: Platebody
+  icon: {fileID: 21300000, guid: c37401b22b3ab18499a7164908189527, type: 3}
+  isDefaultItem: 0
+  equipSlot: 1
+  mesh: {fileID: 137167925672150440, guid: 2ee7e99cc73b7b84385a4004b6faba1c, type: 2}
+  coveredMeshRegions: 0100000002000000
+  armorModifier: 3
   damageModifier: 0
