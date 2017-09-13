@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMesh))]
+[RequireComponent(typeof(NavMeshAgent))]
 public class PlayerMotor : MonoBehaviour {
 
     Transform target;
